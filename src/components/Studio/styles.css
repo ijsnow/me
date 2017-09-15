@@ -1,0 +1,21 @@
+.Studio {
+  text-align: center;
+}
+
+.Studio button {
+  padding: 8px 12px;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.Studio button:hover {
+  background-color: #fff;
+  color: #0089B9;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 48px 0px 0px;
+}

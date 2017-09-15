@@ -1,0 +1,20 @@
+.trigger {
+  background: transparent;
+  border: none;
+  outline: none;
+  text-decoration: underline;
+  transition: color 0.25s;
+}
+
+.trigger h2 {
+  margin: 0px;
+}
+
+.trigger:hover {
+  color: #95B2C0;
+}
+
+.Accordion .list {
+  margin: 0px;
+  list-style: none;
+}

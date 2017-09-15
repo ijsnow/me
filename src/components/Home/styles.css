@@ -1,0 +1,19 @@
+.Home section {
+  margin-top: 24px;
+}
+
+a,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #fff;
+  transition: color 0.25s, border-bottom 0.25s;
+}
+
+a:hover {
+  color: #95B2C0;
+  text-decoration: none;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #95B2C0;
+}
