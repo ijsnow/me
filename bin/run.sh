@@ -1,3 +1,3 @@
 #!/bin/bash
 
-serve -s build -p 3000
+docker run -p 3000:3000 ijsnow/me

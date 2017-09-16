@@ -19,4 +19,4 @@ EXPOSE 3000
 
 RUN ./node_modules/.bin/react-scripts build
 
-CMD ["./bin/run.sh"]
+CMD ["./bin/serve.sh"]
