@@ -6,5 +6,5 @@ ssh ijsnow-me 'bash -s' <<'ENDSSH'
   git pull origin master
 
   ./bin/build.sh
-  ./bin/run.sh
+  # ./bin/run.sh
 ENDSSH

@@ -9,7 +9,7 @@ echo $CID
 
 echo '>>> Building new image'
 # Due to a bug in Docker we need to analyse the log to find out if build passed (see https://github.com/dotcloud/docker/issues/1875)
-docker build ./deploy | tee /tmp/docker_build_result.log
+docker build -t $NAME | tee /tmp/docker_build_result.log
 RESULT=$(cat /tmp/docker_build_result.log | tail -n 1)
 if [[ "$RESULT" != *Successfully* ]];
 then
