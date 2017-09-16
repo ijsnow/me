@@ -13,6 +13,7 @@ docker build ./deploy | tee /tmp/docker_build_result.log
 RESULT=$(cat /tmp/docker_build_result.log | tail -n 1)
 if [[ "$RESULT" != *Successfully* ]];
 then
+  echo 'exitting early'
   exit -1
 fi
 
