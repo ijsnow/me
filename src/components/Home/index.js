@@ -11,8 +11,9 @@ const Home = () => (
     <div className="block">
       <h1>Isaac Snow</h1>
       <p>Full Stack Software Engineer</p>
-      <p>Contact Me: <a href="mailto:isaacjsnow@gmail.com">isaacjsnow@gmail.com</a></p>
-      <p>Resume: <a href="/pdf/resume.pdf">.pdf</a></p>
+      <p>
+        Contact Me: <a href="mailto:isaacjsnow@gmail.com">isaacjsnow@gmail.com</a></p>
+      <p>Resume: <Link to="/pdf/resume.pdf" target="_blank">.pdf</Link></p>
     </div>
     <section>
       <h1>Open Source Work</h1>
