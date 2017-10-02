@@ -8,4 +8,4 @@ import Routes from './routes';
 
 ReactDOM.render(<Routes />, document.getElementById('root'));
 
-registerServiceWorker();
+// registerServiceWorker();
